@@ -4,7 +4,7 @@
 
 
 int main() {
-	printf("un programme qui demande la distance en Mile et la transforme en km La formule");
+	printf("un programme qui demande la distance en Mile et la transforme en km La formule\n");
 	float M,km;
 	printf("Entre la distance en Mile: ");
 	scanf("%f",&M);
