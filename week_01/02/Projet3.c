@@ -5,7 +5,7 @@
 
 int main (){
 
-puts("Ecrivez un programme C pour calculer la somme de deux valeurs entières données. Si les deux valeurs sont identiques, il renvoie le triple de leur somme.");
+puts("Ecrivez un programme C pour calculer la somme de deux valeurs entires donnes. Si les deux valeurs sont identiques, il renvoie le triple de leur somme.");
 int a,b,c;
 scanf("%d%d",&a,&b);
 if(a==b){
