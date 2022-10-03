@@ -1,0 +1,75 @@
+body{
+    background-color:#f5e3bd;
+    
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+} 
+nav ul li :hover{
+    color: #275ddb;
+}
+
+nav ul li+li{
+    margin-left: 40px;
+}
+.sign button a{
+    text-decoration: none;
+}
+.sign {
+    display: flex;
+    
+
+}
+.sign button+button{
+    margin-left: 15px; 
+    
+}
+#in{
+    background: none;
+	border: none;
+    
+    
+}
+.free{
+    background-color:#275ddb;
+    box-shadow: 1px 2px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.free a{
+     color: aliceblue;
+}
+section{
+    display: flex;
+   align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.img1 img {
+    width: 450px;
+    height: 400px;
+}
+#input{width: 200PX; height: 30PX;}
+.info img {
+    width: 13px;
+    height: 13px;
+    margin-left: 10px;
+}
+span {
+    font-size: .8rem;
+    
+}
+
